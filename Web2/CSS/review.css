@@ -1,0 +1,138 @@
+body {
+  background-color: black;
+}
+
+.main .review .image {
+  margin-left: -10%;
+  margin-right: -3%;
+}
+
+.main .review .image img{
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main .review .text {
+  text-align: center;
+  margin: 1% 5% 2% 10%;
+  color: rgb(220, 220, 220);
+  line-height: 2;
+}
+
+.main .review .text h1{
+  font-size: 5rem;
+}
+
+.main .review .text p{
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.main .form {
+  margin: 0 17% 4% 24%;
+  background-color: rgb(36, 36, 36);
+  border-radius: 5rem;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.main .form h1{
+  color: rgb(220, 220, 220);
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.review-form {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  border-bottom: 1px solid #e0ecef;
+  padding-bottom: 2%;
+  margin: 3%;
+}
+
+.form-group input,
+.form-group textarea {
+  color: rgb(220, 220, 220);
+  background-color: rgb(36, 36, 36);
+  border: none;
+  width: 100%;
+  display: block;
+  font-size: 2.5rem;
+  overflow: hidden;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 0;
+}
+
+#sub {
+  font-size: 2rem;
+  border: none;
+  background: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+ .btn {
+  margin-left: 2%;
+  cursor: pointer;
+}
+
+ .btn:hover {
+  background-color: rgb(90, 90, 90);
+  color: rgb(220, 220, 220);
+}
+
+.main .box-container {
+  padding-left: 10%;
+}
+
+.main .box-container .box {
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main .box-container .box .com-box {
+  width: 33%;
+  border-radius: 3rem;
+  background-color: rgb(220, 220, 220); 
+  margin-bottom: 2%;
+  padding: 1% 2%;
+}
+
+
+.main .box-container .box .avatar {
+  text-align: center;
+
+}
+
+.main .box-container .box .avatar img{
+  height:11rem;
+  width: 11rem;
+  border-radius: 40%;
+  object-fit: cover;
+}
+
+.main .box-container .box .comment {
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+.main .box-container .box h2 {
+  font-size: 2rem;
+  text-align: center;
+
+}

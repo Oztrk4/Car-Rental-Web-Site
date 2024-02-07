@@ -1,0 +1,97 @@
+.main .box-container {
+  padding-left: 10%;
+  padding-right: 2%;
+  margin-bottom: 2%;
+}
+
+.main .cars .image {
+  margin-left: -10%;
+  margin-right: -3%;
+}
+
+.main .cars .image img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main .cars .text {
+  text-align: center;
+  margin: 1% 5% 2% 10%;
+  color: rgb(220, 220, 220);
+  line-height: 2;
+}
+
+.main .cars .text h1{
+  font-size: 5rem;
+}
+
+.text .content {
+  background-color: black;
+  padding: 2%;
+  border-radius: 5rem;
+  margin-top: 2%;
+}
+
+.main .cars .text  p{
+  text-align: left;
+  font-size: 2rem;
+}
+
+.main .cars .text h3{
+  text-align: left;
+  font-size: 4rem;
+  margin-top: 4%;
+}
+
+.main .cars .text h3:first-child{
+  margin-top: 0%;
+}
+
+.main .cars .text h6{
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.main .cars .text h5{
+  font-size: 2.5rem;
+  margin-top: 3%;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.main .box-container {
+  width: auto;
+  border-radius: 2rem;
+}
+
+.main .box-container .box {
+  display: flex;
+  background-color: rgb(220, 220, 220);
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+
+.main .box-container .box .image {
+  border-right: 1px solid rgb(220, 220, 220);
+  padding-right: 6%;
+  padding-left: 2.5%;
+  width: 45%;
+}
+
+.main .box-container .box .image img {
+  width: 100%;
+  filter: drop-shadow(1rem .4rem 1rem black);
+}
+
+
+.main .box-container .box .image-text {
+  width: 50%;
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.main .box-container .box .image-text span {
+  font-weight: 300;
+}

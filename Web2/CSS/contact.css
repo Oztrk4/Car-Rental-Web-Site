@@ -1,0 +1,112 @@
+.main .box-container {
+  padding-left: 10%;
+  padding-right: 2%;
+}
+
+.main .contact .image {
+  margin-left: -10%;
+  margin-right: -3%;
+}
+
+.main .contact .image img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main .contact .text {
+  text-align: center;
+  margin: 1% 5% 2% 10%;
+  line-height: 2;
+  color: rgb(220, 220, 220);
+}
+
+.main .contact .text h2 {
+  font-size: 5rem;
+}
+
+.main .contact .text p {
+  font-size: 2rem;
+}
+
+.main .box-container .info {
+  margin-top: 5%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.main .box-container .info .text {
+  margin-right: 5%;
+  font-size: 2rem;
+  color: rgb(220, 220, 220);
+  background-color: rgb(36, 36, 36);
+}
+
+.main .box-container .info .text h1{
+  margin-right: 10%;
+  margin-bottom: 10%;
+  border-bottom: 2px solid rgb(220, 220, 220);
+}
+
+.main .box-container .info .text h4{
+  padding-top: 20%;
+}
+
+
+.main .box-container .info .form {
+  width: 100%;
+  background-color: black;
+  border-radius: 5rem;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.main .box-container .info .form h1{
+  color: rgb(220, 220, 220);
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.contact-form {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  border-bottom: 1px solid #e0ecef;
+  padding-bottom: 4%;
+  margin: 5%;
+}
+
+.form-group input,
+.form-group textarea {
+  color: rgb(220, 220, 220);
+  background-color: black;
+  border: none;
+  width: 100%;
+  display: block;
+  font-size: 2.4rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 0;
+}
+
+.form .contact-form .btn {
+  margin-left: 5%;
+}
+
+.form .contact-form .btn:hover {
+  background-color: rgb(90, 90, 90);
+  color: rgb(220, 220, 220);
+}
+
+
+.map {
+  width: 100%;
+  padding-left: 8%;
+}
+

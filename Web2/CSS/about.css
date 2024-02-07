@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+}
+
+.main .box-container {
+  padding-left: 10%;
+  padding-right: 2%;
+}
+
+.main .box-container .history .image {
+  margin-left: -10%;
+  margin-right: -3%;
+}
+
+.main .box-container .history .image img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main .box-container .history .text {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  line-height: 2;
+}
+
+.main .box-container .history .text h2 {
+  font-size: 5rem;
+  color: rgb(220, 220, 220);
+}
+
+.main .box-container .history .text p {
+  font-size: 2rem;
+  color: rgb(220, 220, 220);
+}
+
+.main .box-container .box {
+  display: flex;
+  border-top: 2px solid rgb(220, 220, 220);
+  padding: 5% 2% 5% 2%;
+  background-color: rgb(90, 90, 90);
+  margin-bottom: 2%;
+  border-radius: 3rem;
+}
+
+.main .box-container .box .image{
+  width: auto;
+}
+
+.main .box-container .box .image img{
+  width: 100%;
+  height: 100%;
+}
+
+.main .box-container .box .text {
+  padding: 0 2%;
+  width: 180%;
+  color: rgb(220, 220, 220);
+}
+
+.main .box-container .box .text h3{
+  padding-bottom: 3%;
+  font-size: 5rem;
+}
+
+.main .box-container .box .text p{
+  font-size: 2rem;
+  padding-bottom: 4%;
+}
+

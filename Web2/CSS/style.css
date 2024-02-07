@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  transition: all 0.7s;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: rgb(220, 220, 220);
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 3rem;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(36, 36, 36);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* BAŞLIKKLAR */
+
+.heading {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  margin-left: 10.5%;
+  color: rgb(220, 220, 220);
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-bottom: 3.5rem;
+  border-bottom: 0.1rem solid rgb(220, 220, 220);
+  margin-right: 3%;
+}
+
+/* BUTONLAR */
+
+.btn{
+  background-color: rgb(220, 220, 220);
+  font-size: 2rem;
+  border-radius: 3rem;
+  border: none;
+  color: black;
+  padding: 2rem;
+  display: inline-block;
+}
+
+.btn:hover{
+  background-color: black;
+  color: rgb(220, 220, 220);
+}
+
+
+/* GEZİNME ÇUBUĞU */
+
+.header {
+  background-color: rgb(220, 220, 220);
+  height: 100%;
+  width: 8%;
+  overflow: hidden;
+  position: fixed;
+  padding: 0;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  font-family: "Poppins, Sans serif";
+}
+
+/* LOGO */
+
+.header a img {
+  width: 100%;
+  height: 100%;
+}
+
+/* LİNKLERİN BULUNDIĞU BÖLÜM */
+
+.header .navbar {
+
+  width: 100%;
+  margin: 20% 0;
+}
+
+
+/* LİNKLER */
+
+.header .navbar a {
+  display: block;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-align: left;
+  padding: 14% 0;
+  font-size: 2.2rem;
+  border: 1px solid transparent;
+  padding-left: 7%;
+}
+
+/* LİNK HOVER */
+
+.header .navbar a.active,
+.header .navbar a:hover {
+  color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  font-size: 3rem;
+}
+
+/* GEZİNME ÇUBUĞU BİTİŞ */
+
+
+/* GEZİNME ÇUBUĞU DIŞINDAKİ ANASAYFA */
+
+.countdown-text {
+  width: 100%;
+    color: white;
+    display: flex;
+    margin-top: -41%;
+    margin-left: -5%;
+    font-size: 3rem;
+    align-items: center;
+}
+
+.countdown-text h2 {
+  padding-right: 1%;
+  font-weight: 300;
+}
+#countdown {
+  font-weight: 700;
+}
+
+.home-text {
+  margin-left: 10%;
+}
+
+.home-text h1{
+  font-size: 4.5rem;
+  color: rgb(220, 220, 220);
+  text-transform: uppercase;
+}
+
+
+.home-text p{
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(220, 220, 220);
+  text-transform: capitalize;
+}
+
+.home-text .button {
+  margin-top: 5%;
+}
+
+/* ANASAYFA ARKA PLAN */
+
+.home {
+  background: url(../images/home.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* CARS */
+
+.cars-preview {
+  margin-top: -1.5%;
+  background-color: black;
+  padding-bottom: 4%;
+  border-radius: 3rem;
+}
+
+.cars-preview .box-container {
+  background-color: black;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 2%;
+  padding: .5%;
+  display: flex;
+}
+
+/* HOVER */
+
+.cars-preview .box-container .box:hover img {
+  transform: scale(1.1);
+}
+
+/* FİRST BOX */
+
+.cars-preview .box-container .box:first-child {
+  margin-left: 0rem;
+}
+
+/* CARS İÇERİK YÖNETİMİ */
+
+.cars-preview .box-container .box {
+  width: 32.4%;
+  height: 100%;
+  background-color: rgb(36, 36, 36);
+  border: 2px solid black;
+  margin-left: 1.3%;
+  display: inline-block;
+  border-radius: 3rem;
+  padding: 1% 0 2% 1.44%;
+}
+
+/* CARS İMAGES */
+
+.cars-preview .box-container .box img{
+  width: 95.3%;
+  object-fit: cover;
+  border-radius: 3rem;
+  overflow: hidden;
+
+}
+
+/* CARS TEXT */
+
+.cars-preview .box-container .box .arac-text {
+  margin-top: 4%;
+  } 
+
+  .cars-preview .box-container .box h3 span{
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.cars-preview .box-container .box .day {
+  color: rgb(220, 220, 220);
+  font-size: 2.2rem;
+  margin-left: -4.7%;
+  margin-top: 9%;
+  padding-bottom: 7%;
+  border-bottom: 3px solid rgb(220, 220, 220);
+  padding-left: 3%;
+}
+
+.cars-preview .box-container .box .week {
+  color: rgb(220, 220, 220);
+  font-size: 2.2rem;
+  margin-top: 7%;
+  margin-left: -2%;
+}
+
+.cars-preview .box-container .box .price {
+  padding-left: 2%;
+}
+
+.cars-preview .box-container .box .old {
+  text-decoration: line-through;
+  padding-left: 2%;
+}
+
+.cars-preview .box-container .box .price span {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  font-weight: 300;
+}
+
+.cars-preview .box-container .box .btn-arac {
+  margin-top: 8%;
+  margin-left: 37%;
+  font-size: 1.8rem;
+}
+
+.cars-preview .box-container .arac-text .cla {
+  color: rgb(220, 220, 220);
+  font-size: 3.2rem;
+  padding-left: 23%;
+}
+
+.cars-preview .box-container .arac-text .g {
+  color: rgb(220, 220, 220);
+  font-size:3.2rem;
+  padding-left: 25%;
+}
+
+.cars-preview .box-container .box .bmw {
+  color: rgb(220, 220, 220);
+  font-size: 3.2rem;
+  padding-left: 31%;
+}
+
+/* REVİEW */
+
+.review-preview {
+  height: auto;
+  padding-bottom: 3%;
+}
+
+.review-preview .box-container {
+  height: auto;
+  margin: 3% 2% 2% 10%;
+  display: flex;
+  padding-bottom: 2%;
+}
+
+.review-preview .box-container .box {
+  height: auto;
+  background-color: rgb(220, 220, 220);
+  border-radius: 4rem;
+  width: 33%;
+  margin-right: 2%;
+}
+
+.review-preview .box-container .box:last-child{
+  margin-right: 0;
+}
+
+.review-preview .box-container .box-avatar{
+  margin-left: 39%;
+  padding-top: 5%;
+}
+
+.review-preview .box-container .box-avatar .fyz{
+  margin-left: 2.2%;
+}
+
+.review-preview .box-container .box-avatar .emr{
+  margin-left: 1.8%;
+}
+
+.review-preview .box-container .box-avatar  .özg{
+  margin: 0;
+}
+
+
+
+.review-preview .box-container .box .box-avatar img{
+  height:11rem;
+  width: 11rem;
+  border-radius: 40%;
+  object-fit: cover;
+}
+
+.review-preview .box-container .box .stars {
+  margin-left: 43%;
+}
+
+.review-preview .box-container .box .comment {
+  font-size: 2rem;
+  text-align: center;
+  padding: 3% 7%;
+  padding-bottom: 8%;
+}
+
+.review-preview .review-btn {
+  margin-left: 51%;
+  margin-top: -2%;
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+}
+
+footer .box-container{
+  height: auto;
+  background-color: black;
+  margin-left: 10%;
+  margin-right: 2%;
+  padding-bottom: 2%;
+}
+
+footer .box-container .box {
+  color: rgb(220, 220, 220);
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding-top: 3%;
+}
+
+footer .box-container .box h3{
+  font-size: 2rem;
+}
+
+footer .social {
+  margin-top: 1%;
+  padding-right: 2%;
+  font-size: 3rem;
+  color: rgb(220, 220, 220);
+  text-align: center;
+}
+
+footer .social a{
+  color: rgb(220, 220, 220);
+  padding-right: 1%;
+}
+
+footer span {
+  color: rgb(90, 90, 90);
+}

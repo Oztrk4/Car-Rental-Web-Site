@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AO Motors</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="../images/BEYAZ LOGO TRANSPARAN.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../CSS/review.css" />
+    <script src="../JavaScript/review.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#">
+          <img src="../images/SİYAH LOGO TRANSPARAN.png" alt="" />
+        </a>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="index.html"> <i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li>
+            <a href="about.html">
+              <i class="fa-solid fa-address-card"></i> About</a
+            >
+          </li>
+          <li>
+            <a href="contact.html">
+              <i class="fa-solid fa-phone"></i> Contact</a
+            >
+          </li>
+          <li>
+            <a href="cars.html"> <i class="fa-solid fa-car-side"></i> Cars</a>
+          </li>
+          <li>
+            <a href="review.html" class="active">
+              <i class="fa-solid fa-comment-dots"></i> Review</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main">
+      <div class="review">
+        <div class="image">
+          <img src="../images/feedback.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h1>REVIEW</h1>
+          <p>
+            Your opinions are very valuable to us. You can also help us improve
+            ourselves by evaluating us. Below are the opinions of some of the
+            users who have used our service.
+          </p>
+        </div>
+      </div>
+      <div class="form" id="form">
+        <h1>COMMENT</h1>
+
+        <div class="form-group">
+          <input type="text" id="myInput" name="Name" required placeholder="Name" />
+        </div>
+        <div class="form-group">
+          <textarea
+            name="Message"
+            id="message"
+            rows="5"
+            required
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <a href="#">
+          <button class="btn" onclick="myFunction()"><input type="submit" value="Send" id="sub"></button>
+        </a>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <div class="com-box">
+            <div class="avatar">
+              <img src="../images/avatar2.jpg" alt="" />
+              <h2>Emre Durmuş</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="comment">
+              <p>
+                I was very pleased with the service from AO Motors. However, I
+                experienced a bit of a wait during the vehicle pick-up process
+                and felt a lack of communication during this process. Vehicle
+                cleaning and maintenance was very good. The prices were also
+                quite reasonable compared to other companies. Overall, I was
+                pleased with the service, but there could be some improvement in
+                communication.
+              </p>
+            </div>
+          </div>
+          <div class="com-box">
+            <div class="avatar">
+              <img src="../images/avatar3.jpeg" alt="" />
+              <h2>Özge Sıla Kaya</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="comment">
+              <p>
+                Renting a car from AO Motors was great! I was able to easily
+                make a reservation online and received my vehicle at the
+                location I wanted without any problems. The vehicle was clean
+                and well maintained. The staff was extremely helpful and the
+                transaction was completed quickly. Prices were also quite
+                reasonable. I definitely recommend it!
+              </p>
+            </div>
+          </div>
+          <div class="com-box">
+            <div class="avatar">
+              <img src="../images/avatar1.jpeg" alt="" />
+              <h2>Hazal Kargı</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="comment">
+              <p>
+                It was really enjoyable to work with this company during my car
+                rental process. The staff were extremely helpful and
+                professional from start to finish. Rental transactions were fast
+                and hassle-free. The vehicle was in very good condition in terms
+                of cleanliness and maintenance. I did not experience any
+                technical problems during my trip. Choosing this company will
+                allow you to have a comfortable and reliable driving experience!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="com-box">
+            <div class="avatar">
+              <img src="../images/avatar4.jpg" alt="" />
+              <h2>Görkem Arslan</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="comment">
+              <p>
+                I had an excellent experience on my trip with AO Motors. I was
+                impressed by the quick booking process, wide selection of
+                vehicles and helpful customer service. My only suggestion is
+                that there be more transparency in pricing. Overall, it was a
+                great experience and I will choose it again.
+              </p>
+            </div>
+          </div>
+          <div class="com-box">
+            <div class="avatar">
+              <img src="../images/avatar6.jpg" alt="" />
+              <h2>Feyza Özkan</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="comment">
+              <p>
+                It was great working with AO Motors. I was pleased with the
+                easy-to-use reservation system and wide vehicle selection.
+                However, it would be nice if they were more transparent about
+                additional fees. Still, I will choose it again due to their fast
+                service and helpful staff.
+              </p>
+            </div>
+          </div>
+          <div class="com-box">
+            <div class="avatar">
+              <img src="../images/avatar8.jpg" alt="" />
+              <h2>Ulaş Caner Sinan</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="comment">
+              <p>
+                AO Motors impressed me with its wide selection of vehicles and
+                simple booking process. Customer service responded quickly.
+                Vehicle delivery and return were smooth. I would expect more
+                transparency in pricing. In general, I recommend, thank you!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="com-box">
+            <div class="avatar">
+              <img src="../images/avatar5.jpg" alt="" />
+              <h2>Kadir Koca</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="comment">
+              <p>
+                It was truly great to use AO Motors. The website was very
+                user-friendly, the vehicle options were wide and the booking
+                process was extremely fast. The customer service team was also
+                extremely helpful. My only minor criticism was that some
+                additional charges were not clearly stated when booking. Other
+                than that, my overall experience was excellent. I will
+                definitely use again!
+              </p>
+            </div>
+          </div>
+          <div class="com-box">
+            <div class="avatar">
+              <img src="../images/avatar7.jpg" alt="" />
+              <h2>Furkan Berkay Özcan</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="comment">
+              <p>
+                Using AO Motors was pretty easy. The website was intuitive, the
+                vehicle options were rich and the booking process was fast.
+                However, it was unpleasant to encounter additional charges that
+                were not clear at the time of booking. Other than that, vehicle
+                delivery and return went smoothly. Overall, I was pleased but
+                would have expected more transparency regarding pricing.
+              </p>
+            </div>
+          </div>
+          <div class="com-box">
+            <div class="avatar">
+              <img src="../images/avatar9.jpg" alt="" />
+              <h2>Abdullah Samet Demir</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="comment">
+              <p>
+                I was really nervous as it was my first time using this company.
+                However, the convenience of the website and the friendliness of
+                the staff made me feel very comfortable while making the rental
+                process. I was also very impressed by the cleanliness and
+                comfort of the vehicles. Those who will try it for the first
+                time can use this company with peace of mind without any
+                worries.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="com-box">
+            <div class="avatar">
+              <h2 id="myH"></h2>
+            </div>
+            <div class="comment">
+              <p id="myP">
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="box-container">
+        <div class="box">
+          <h3>
+            Created by Abdulsamet Öztürk | <span>All Rights Reserved</span>
+          </h3>
+        </div>
+        <div class="social">
+          <a
+            href="https://tr-tr.facebook.com/abdulsametztrk"
+            target="_blank"
+            class="fa-brands fa-facebook-f"
+          ></a>
+          <a
+            href="http://instagram.com/oz.trk4/"
+            target="_blank"
+            class="fa-brands fa-instagram"
+          ></a>
+          <a
+            href="https://twitter.com/Abdulsametztr13"
+            target="_blank"
+            class="fa-brands fa-twitter"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/abdulsamet-%C3%B6zt%C3%BCrk-9135412a8/"
+            target="_blank"
+            class="fab fa-linkedin"
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
